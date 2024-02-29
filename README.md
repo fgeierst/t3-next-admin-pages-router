@@ -6,6 +6,9 @@
 ## Quickstart
 
 ```bash
+git clone https://github.com/fgeierst/t3-next-admin-pages-router.git
+cd t3-next-admin-pages-router
 pnpm install
+pnpm prisma generate
 pnpm dev
 ```
