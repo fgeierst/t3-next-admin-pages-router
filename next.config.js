@@ -19,6 +19,17 @@ const config = {
   },
 
   transpilePackages: ["@premieroctet/next-admin"],
+
+  experimental: {
+    swcPlugins: [
+      [
+        "next-superjson-plugin",
+        {
+          excluded: [],
+        },
+      ],
+    ],
+  },
 };
 
 export default config;
